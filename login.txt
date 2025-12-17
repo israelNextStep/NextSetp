@@ -1,0 +1,19 @@
+<section id="inscription" class="form-section">
+  <div class="img-container">
+    <img src="images/inscription1.jpg" alt="Jeune Africain souriant" class="form-image">
+  </div>
+  <form>
+    <!-- Ton formulaire d’inscription ici -->
+    <h2>Inscription</h2>
+    <label for="username">Nom d’utilisateur</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Mot de passe</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">S’inscrire</button>
+  </form>
+</section>
